@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.github.atishikawa.intellijpluginkeymapemacsmacos</id>
+    <id>com.github.atishikawa.emacsmacoskeymap</id>
     <name>Custom Emacs Keymap for Mac OS</name>
     <vendor>at-ishikawa</vendor>
 
