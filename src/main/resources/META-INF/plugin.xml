@@ -8,12 +8,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.atishikawa.intellijpluginkeymapemacsmacos.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.atishikawa.intellijpluginkeymapemacsmacos.services.MyProjectService"/>
+      <bundledKeymap file="Custom Emacs Keymap for Mac OS.xml" />
     </extensions>
-
-    <applicationListeners>
-        <listener class="com.github.atishikawa.intellijpluginkeymapemacsmacos.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
-    </applicationListeners>
 </idea-plugin>
