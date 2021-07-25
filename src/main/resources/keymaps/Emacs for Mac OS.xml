@@ -1,4 +1,4 @@
-<keymap name="Emacs Keymap for Mac OS" parent="Mac OS X 10.5+" version="1" disable-mnemonics="false">
+<keymap name="Emacs for Mac OS" parent="Mac OS X 10.5+" version="1" disable-mnemonics="false">
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="ESCAPE"/>
     <keyboard-shortcut first-keystroke="control G"/>
@@ -307,6 +307,15 @@
     <keyboard-shortcut first-keystroke="ESCAPE" second-keystroke="X" />
     <keyboard-shortcut first-keystroke="meta X" />
   </action>
+
+  <!-- Tags -->
+  <action id="Back">
+    <!-- M-* -->
+    <!-- <keyboard-shortcut first-keystroke="meta MULTIPLY" /> -->
+    <keyboard-shortcut first-keystroke="meta shift 8" />
+  </action>
+  <action id="Console.TableResult.AddColumn" />
+  <action id="EditorToggleColumnMode" />
 
   <!--Disabled shortcuts-->
   <action id="CollapseAllRegions"/>

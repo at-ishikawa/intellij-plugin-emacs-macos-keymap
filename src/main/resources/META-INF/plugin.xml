@@ -8,6 +8,6 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-      <bundledKeymap file="Emacs Keymap for Mac OS.xml" />
+      <bundledKeymap file="Emacs for Mac OS.xml" />
     </extensions>
 </idea-plugin>

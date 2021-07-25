@@ -1,1 +1,1 @@
-rootProject.name = "intellij-plugin-keymap-emacs-macos"
+rootProject.name = "intellij-plugin-emacs-macos-keymap"
