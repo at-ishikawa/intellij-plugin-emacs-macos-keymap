@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.atishikawa.emacsmacoskeymap</id>
-    <name>Custom Emacs Keymap for Mac OS</name>
+    <name>Emacs Keymap for Mac OS</name>
     <vendor>at-ishikawa</vendor>
 
     <!-- Product and plugin compatibility requirements -->
