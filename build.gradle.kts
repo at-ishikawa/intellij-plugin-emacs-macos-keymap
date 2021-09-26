@@ -101,6 +101,8 @@ tasks {
 
     runPluginVerifier {
         ideVersions.set(properties("pluginVerifierIdeVersions").split(',').map(String::trim).filter(String::isNotEmpty))
+        // stop-gap: https://github.com/JetBrains/intellij-platform-plugin-template/issues/151#issuecomment-909304104
+        verifierVersion.set("1.258")
     }
 
     publishPlugin {
