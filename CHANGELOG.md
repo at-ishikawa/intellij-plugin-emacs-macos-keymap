@@ -4,6 +4,10 @@
 
 ## Unreleased
 
+
+## 0.3.0 - 2024-05-17
+- add: support 2024.1 version by @at-ishikawa in https://github.com/at-ishikawa/intellij-plugin-emacs-macos-keymap/pull/5
+
 ## 0.2.0 - 2024-02-28
 - update: support 233 version by @at-ishikawa in https://github.com/at-ishikawa/intellij-plugin-emacs-macos-keymap/pull/3
 
