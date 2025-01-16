@@ -4,6 +4,9 @@
 
 ## Unreleased
 
+## 0.5.0 - 2025-01-16
+- Set unlimited untilBuild version by @at-ishikawa in https://github.com/at-ishikawa/intellij-plugin-emacs-macos-keymap/pull/8
+- Upgrade the plugin version to 0.5.0 by @at-ishikawa in https://github.com/at-ishikawa/intellij-plugin-emacs-macos-keymap/pull/9
 
 ## 0.3.0 - 2024-05-17
 - add: support 2024.1 version by @at-ishikawa in https://github.com/at-ishikawa/intellij-plugin-emacs-macos-keymap/pull/5
