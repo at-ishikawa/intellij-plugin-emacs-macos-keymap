@@ -5,6 +5,9 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/17289.svg)](https://plugins.jetbrains.com/plugin/17289)
 
 <!-- Plugin description -->
+
+## This plugin is no longer maintained
+
 An unofficial emacs keymap for a Mac keyboard on IntelliJ IDEs.
 Unlike the default Emacs keymap, the CMD key is used as the META key for shortcuts.
 
