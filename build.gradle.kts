@@ -72,7 +72,9 @@ tasks {
     patchPluginXml {
         version = properties("pluginVersion")
         sinceBuild = properties("pluginSinceBuild")
-        // untilBuild = properties("pluginUntilBuild")
+        // Set unlimited build number
+        // https://intellij-support.jetbrains.com/hc/en-us/community/posts/21616053410194/comments/21618953590034
+        untilBuild = provider { null }
 
         // Extract the <!-- Plugin description --> section from README.md and provide for the plugin's manifest
         pluginDescription = providers.fileContents(layout.projectDirectory.file("README.md")).asText.map {
